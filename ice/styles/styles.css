@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgb(122, 122, 255);
+    color: white;
+}
+ol{
+    text-align: left;
+    color: black;
+}
+.bio{
+    width: 400px;
+    text-align: center;
+}
+blockquote{
+    font-size: 35px;
+}
