@@ -13,7 +13,7 @@ body{
 }
 ol{
     text-align: left;
-    color: black;
+    color: rgba(0, 0, 0, 0.966);
 }
 .bio{
     width: 400px;
