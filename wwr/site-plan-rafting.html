@@ -4,46 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="../images/logo.png">
+    <link rel="stylesheet" href="styles/citeplanreafting.css"> <!-- CSS file is linked properly -->
     <title>Adventure</title>
 </head>
 <body>
-    <header>
-        <a href="index.html"><img id="logo" class="rounded" src="../images/logo.png" alt="Logo Initials"></a>
-        <nav>
-            <ul>
-                <li><a href="aboutus.html">About</a></li>
-                <li><a href="contactus.html">Contact</a></li>
-                <li><a href="otherpage.html">Prices</a></li>
-                <li><a href="other2.htlm">Reviews</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div class="hero"> 
-        <div class="hero-text"> 
-            <h1>Have an Adventure!</h1>
-            <p>Embark on a journey with your friends</p>
-            <img src="../images/mainriver.jpg" width="1920" alt="River Sunset">
+    <!-- <div> container for all content with max-width -->
+    <div id="content">
+        <header>
+            <a href="index.html"><img id="logo" class="rounded" src="../images/logo.png" alt="Logo Initials"></a>
+            <nav>
+                <ul>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="contactus.html">Contact</a></li>
+                    <li><a href="otherpage.html">Prices</a></li>
+                    <li><a href="other2.html">Reviews</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="hero"> 
+            <div class="hero-text"> 
+                <h1>Have an Adventure!</h1>
+                <p>Embark on a journey with your friends</p>
+                <img src="../images/mainriver.jpg" width="1920" alt="River Sunset">
+            </div>
         </div>
-    <main>
-        <h2>Gallery</h2>
-        <p>Rivers</p>
-        <img src="../images/river.jpg" width="500" alt="River">
-        <p>Camping</p>
-        <img src="../images/fire.jpg" width="500" alt="Fire">
-        <p>Rapids</p>
-        <img src="../images/rafting.jpg" width="500" alt="Rapid Water">
-        <p>Enjoy the serenity</p>
-        <img src="../images/mountains.jpg" width="500" alt="Mountains">
-        <p>Come join us for a tour of the serene beauties of the earth. There is much to see, so don't wait! With an experienced guide and stunning weather, you will have a wonderful time!</p>
-    </main>
 
+        <!-- Empty div with id="background" and height above the mountains image -->
+        <div id="background"></div>
+        
+        <main>
+            <h2>Gallery</h2>
+            <p>Rivers</p>
+            <img src="../images/river.jpg" width="500" alt="River">
+            <p>Camping</p>
+            <img src="../images/fire.jpg" width="500" alt="Fire">
+            <p>Rapids</p>
+            <img src="../images/rafting.jpg" width="500" alt="Rapid Water">
+            <p>Enjoy the serenity</p>
+            <img class="mountains" src="../images/mountains.jpg" width="500" alt="Mountains">
+            <p>Come join us for a tour of the serene beauties of the earth. There is much to see, so don't wait! With an experienced guide and stunning weather, you will have a wonderful time!</p>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Camden H.</p>
+            <!-- External social media links open in a new tab -->
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="https://placehold.co/40x40" alt="Facebook Icon">
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <img src="https://placehold.co/40x40" alt="Twitter Icon">
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="https://placehold.co/40x40" alt="Instagram Icon">
+            </a>
+            <a href="https://www.linkedin.com" target="_blank">
+                <img src="https://placehold.co/40x40" alt="LinkedIn Icon">
+            </a>
+        </footer>
     </div>
-<footer>
-<p>&copy; 2024 Camden H.</p>
-<img src="https://placehold.co/40x40" alt="Gallery Placeholder">
-<img src="https://placehold.co/40x40" alt="Gallery Placeholder">
-<img src="https://placehold.co/40x40" alt="Gallery Placeholder">
-<img src="https://placehold.co/40x40" alt="Gallery Placeholder">
-</footer>
 </body>
 </html>
