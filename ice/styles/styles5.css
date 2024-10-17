@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+h1{
+    margin: 0;
+    font-size: 0;
+}
+#cover{
+    width: 100%;
+    margin-bottom: 0;
+}
+.circle{
+    width: 300px;
+    border: 15px solid;
+    border-color: black;
+    border-radius: 50%;
+    margin: 30px 100px;
+}
+div.lower{
+    text-align: center;
+    background-color: darkgray;
+    margin: 0;
+}
