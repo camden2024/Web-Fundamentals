@@ -5,33 +5,55 @@
     box-sizing: border-box;
 }
 
-/* Page layout */
+/* Font styles */
 body {
-    max-width: 1600px;
-    margin: 0 auto; /* Centers all content */
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif; /* Change body font */
+    background-color: #f9f9f9;
     color: #333;
+    line-height: 1.6;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-/* Header styling */
+/* Headline font and adjustments */
+h1, h2 {
+    font-family: 'Georgia', serif; /* Change headline fonts */
+    color: #444;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 3em; /* Adjust font size for h1 */
+}
+
+h2 {
+    font-size: 2em; /* Adjust font size for h2 */
+}
+
+/* Header and logo styling */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
     background-color: #333;
-    color: #fff;
+    border-radius: 10px; /* Rounded edges for header */
+    margin-bottom: 20px; /* Margin to separate header from content */
 }
 
 header img {
-    height: 80px; /* Logo width set to 80px */
+    height: 80px; /* Logo size */
+    border-radius: 50%; /* Round the logo */
+    border: 2px solid #fff; /* Add a border to the logo */
 }
 
+/* Navigation styling */
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: center; /* Centers the links in nav */
+    justify-content: center;
 }
 
 nav ul li {
@@ -40,47 +62,68 @@ nav ul li {
 
 nav ul li a {
     color: #fff;
-    text-decoration: none; /* Removes underline */
-    transition: color 0.3s ease;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #ff6347; /* Changes color on hover */
+    background-color: #ff6347; /* Hover effect for links */
 }
 
 /* Hero section */
 .hero {
     text-align: center;
+    padding: 50px;
     background-color: #0073e6;
     color: #fff;
-    padding: 50px;
+    border-radius: 10px; /* Rounded edges */
+    margin-bottom: 30px;
+}
+
+.hero img {
+    width: 100%;
+    border-radius: 10px; /* Rounded image */
+    margin-top: 20px;
 }
 
 .hero-text h1 {
     font-size: 3em;
-    margin-bottom: 20px;
 }
 
 .hero-text p {
     font-size: 1.5em;
+    margin-top: 20px;
+}
+
+/* Main content area */
+main {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    margin-bottom: 30px;
+}
+
+main p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+main img {
+    width: 500px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #ddd;
 }
 
 /* Background div styling */
 #background {
     height: 150px;
-    background-color: #add8e6; /* Adds a background color to the empty div */
-}
-
-/* Main content */
-main {
-    text-align: center;
-    padding: 20px;
-}
-
-main img {
-    margin: 10px 0;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #add8e6;
+    margin-bottom: 20px;
 }
 
 /* Footer styling */
@@ -89,10 +132,11 @@ footer {
     background-color: #333;
     color: #fff;
     padding: 20px;
+    border-radius: 10px; /* Rounded edges for footer */
 }
 
 footer p {
-    font-size: 1.2em; /* Larger footer text */
+    font-size: 1.2em;
 }
 
 footer a {
@@ -101,27 +145,33 @@ footer a {
 
 footer a img {
     border-radius: 50%;
-    width: 80px; /* Social media icon width set to 80px */
+    width: 80px;
+    border: 2px solid #fff; /* Add a border to social icons */
 }
 
 footer a:hover img {
-    opacity: 0.7; /* Hover effect for social media icons */
+    opacity: 0.7;
 }
 
-/* Link styling */
+/* Padding and spacing adjustments */
+body, header, nav, footer {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+main p, nav ul li a {
+    margin: 10px 0;
+}
+
+/* Borders and rounded corners */
+img, div, footer, nav ul li a {
+    border-radius: 10px;
+}
+
 a {
-    text-decoration: none; /* No underline */
+    text-decoration: none;
 }
 
 a:hover {
-    color: #ff6347; /* Change link color on hover */
-}
-
-/* Section background colors */
-body, header, footer, #background {
-    background-color: #333; /* Background color for sections */
-}
-
-h1, h2, p {
-    color: #fff; /* Foreground colors for text */
+    color: #ff6347;
 }
