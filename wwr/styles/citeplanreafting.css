@@ -106,7 +106,7 @@ main {
     text-align: center;
 }
 
-.gallery-item img {
+figure img {
     width: 100%;
     border-radius: 20px;
     border: 4px solid #d2b48c;
@@ -114,7 +114,7 @@ main {
     display: grid;
 }
 
-.gallery-item:hover img {
+figure:hover img {
     transform: scale(1.05);
 }
 
@@ -125,15 +125,15 @@ main {
 }
 
 /* Set specific items to span multiple columns */
-#river {
+.river-card {
     grid-column: 2/4; /* Spans 2 columns */
 }
 
-#fire {
+.camping-card {
     grid-column: 5/7; /* Spans 3 columns */
 }
 
-#rapids {
+.rapids-card {
     grid-column: 8/10; /* Spans 2 columns */
 }
 
@@ -176,7 +176,7 @@ footer {
     }
 
     .gallery {
-        grid-template-columns: repeat(2, 1fr);
+        display: block;
     }
 
     .gallery-item {
