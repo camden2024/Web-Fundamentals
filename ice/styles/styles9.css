@@ -1,0 +1,77 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(5, auto);
+    text-align: center;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+}
+.stuff {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(5, auto);
+    text-align: center;
+    align-items: center;
+    background-color: antiquewhite;
+    grid-column: 2/3;
+    max-width: 300px;
+    justify-self: center;
+}
+.hero {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.three {
+    grid-column: 2/3;
+    grid-template-rows: 2/3;
+}
+.post {
+    grid-column: 2/3;
+    grid-template-rows: 3/4;
+
+}
+
+#overflowtext {
+    grid-column: 2/3;
+    grid-template-rows: 4/5;
+    max-width: 280px;
+    justify-self: center;
+}
+
+
+footer {
+    display: grid;
+    width: 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 2/3;
+    justify-self: center;
+    max-width: 300px;
+    justify-content: center;
+    color: antiquewhite;
+    background-color: rgb(0, 0, 91);
+}
+
+.five {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.read {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.twenty {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.views {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.fifteen {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.comments {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
